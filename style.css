@@ -1,0 +1,33 @@
+body {
+  background-color: rosybrown;
+}
+
+.circle {
+  border-radius: 100px;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: rebeccapurple;
+  margin: 10px;
+}
+
+div:first-child {
+  background-color: aqua;
+  height: 150px;
+  width: 150px;
+}
+
+div:nth-child(2) {
+  background-color: coral;
+}
+
+.small {
+  height: 50px;
+  width: 50px;
+}
+
+/* section {
+  display: flex;
+} */
